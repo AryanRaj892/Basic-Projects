@@ -36,7 +36,7 @@ II. 2020A2PS1777P_KNN
    Q8) Found the optimal K value for weighted KNN
 
 
-III. 2020A2PS1777P_Ensemble
+III. 2020A2PS1777P_Naive_Bayes
      
      Dataset used: bank_data.csv, car_data.csv
      
@@ -44,11 +44,16 @@ III. 2020A2PS1777P_Ensemble
      
      Q1) Created a Naive-Bayes Classifier. Dropped attribute 'current_act'. Found the accuracy of newly created Naive-Bayes Classifier and compared with the original one.
      
-     Q2) Applied KNN classifier with and without attribute 'current_act'. 
+     Q2) Applied KNN classifier with and without attribute 'current_act'. Compared observations of KNN and Naive-Bayes Classifier.
      
-     Q3)
+     Q3) Applied Naive-Bayes classifier on car.csv dataset
      
-     Q4)
+     Q4) Found the correlation between attributes of car.csv dataset and the target variable, and arranged them in ascending order.
      
-     Q5)
+     Q5) Removed one of the highly correlated attributes and applied Naive-Bayes classifier. Compared the perofrmance of obtained model with that of earlier models.
      
+IV. 2020A2PS1777P_Ensemble
+
+    Dataset used: letter-recognition.csv
+    
+    Q1) 
