@@ -56,4 +56,19 @@ IV. 2020A2PS1777P_Ensemble
 
     Dataset used: letter-recognition.csv
     
-    Q1) 
+    Q1) Ensemble Method by Manipulation of Dataset
+        Implemented Bagging classifier using 5 decision trees as base classifiers.
+        Trained the model using k-fold cross-validation with k=5.
+    
+    Q2) Ensemble Method by Manipulation of Classifiers
+        Base classifiers used: Decision Tree, 3-NN with Euclidean distance, 5-NN with Manhattan distance and Naive-Bayes classifier.
+        Created an ensemble of classifiers using VotingClassifier with hard-voting method.
+        
+    Q3) Ensemble Method by Manipulation of Features
+        Generated 5 feature sets using random vector.
+        Applied Decision Tree with same hyperparameters on these 5 feature sets.
+        Created an ensemble of classifiers using VotingClassifier with hard-voting method.
+        
+V. 2020A2PS1777P_clusterval
+    
+    In Progress
