@@ -42,9 +42,9 @@ III. 2020A2PS1777P_Ensemble
      
      Performed Label Encoding of categorical features
      
-     Q1) Dropped attribute 'current_act'
+     Q1) Created a Naive-Bayes Classifier. Dropped attribute 'current_act'. Found the accuracy of newly created Naive-Bayes Classifier and compared with the original one.
      
-     Q2)
+     Q2) Applied KNN classifier with and without attribute 'current_act'. 
      
      Q3)
      
